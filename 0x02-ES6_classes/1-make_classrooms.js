@@ -5,5 +5,3 @@ export default function initializeRooms() {
   const rooms = sizes.map((size) => new ClassRoom(size));
   return rooms;
 }
-
-const classrooms = initializeRooms();
